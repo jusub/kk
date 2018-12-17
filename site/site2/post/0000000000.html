@@ -108,40 +108,29 @@
 	<br>
 	<br>
 
-<div class="col-md-12">
-                <div class="video-wrapper">
 
-                    <link rel="stylesheet" href="https://cdn.fluidplayer.com/v2/current/fluidplayer.min.css" type="text/css">
-                    <script src="https://cdn.fluidplayer.com/v2/current/fluidplayer.min.js"></script>
-
-                    <div class="fluid_video_wrapper fluid_player_layout_default" id="fluid_video_wrapper_sample-video" style="height: 570px; width: 1140px;"><video id="sample-video" style="width: 100%; height: 100%; cursor: none;" playsinline="" webkit-playsinline="" __idm_id__="625068033">
-                        <source data-fluid-hd="" src="http://sexybeastialityvideos.com/videos/2148.mp4" title="1080p" type="video/mp4">
-                        <source data-fluid-hd="" src="http://sexybeastialityvideos.com/videos/2148.mp4" title="720p" type="video/mp4">
-                        <source src="http://sexybeastialityvideos.com/videos/2148.mp4" title="480p" type="video/mp4">
-                    </video><div class="vast_video_loading" id="vast_video_loading_sample-video" style="display: none;"></div><div id="sample-video_fluid_controls_container" class="fluid_controls_container fade_out"><div class="fluid_controls_left">   <div id="sample-video_fluid_control_playpause" class="fluid_button fluid_button_play"></div></div><div id="sample-video_fluid_controls_progress_container" class="fluid_controls_progress_container fluid_slider">   <div class="fluid_controls_progress">      <div id="sample-video_vast_control_currentprogress" class="fluid_controls_currentprogress" style="background-color: white;">          <div id="sample-video_vast_control_currentpos" class="fluid_controls_currentpos"></div>      </div>   </div>   <div id="sample-video_buffered_amount" class="fluid_controls_buffered" style="width: 0px;"></div>   <div id="sample-video_ad_markers_holder" class="fluid_controls_ad_markers_holder"></div><div id="sample-video_fluid_timeline_preview_container" class="fluid_timeline_preview_container" style="display: none; position: absolute;"></div><div id="sample-video_fluid_timeline_preview_container_shadow" class="fluid_timeline_preview_container_shadow" style="position: absolute; display: none; opacity: 1;"></div></div><div class="fluid_controls_right">   <div id="sample-video_fluid_control_fullscreen" class="fluid_button fluid_button_fullscreen"></div>   <div id="sample-video_fluid_control_theatre" class="fluid_button fluid_button_theatre"></div>   <div id="sample-video_fluid_control_video_source" class="fluid_button fluid_button_video_source"><div id="sample-video_fluid_control_video_source_list" class="fluid_video_sources_list" style="display: none;"><div id="source_sample-video_1080p" class="fluid_video_source_list_item"><span class="source_button_icon source_selected"></span>1080p<sup style="color:false" class="fp_hd_source"></sup></div><div id="source_sample-video_720p" class="fluid_video_source_list_item"><span class="source_button_icon "></span>720p<sup style="color:false" class="fp_hd_source"></sup></div><div id="source_sample-video_480p" class="fluid_video_source_list_item"><span class="source_button_icon "></span>480p</div></div></div>   <div id="sample-video_fluid_control_playback_rate" class="fluid_button fluid_button_playback_rate" style="display: none;"></div>   <div id="sample-video_fluid_control_download" class="fluid_button fluid_button_download" style="display: none;"></div>   <div id="sample-video_fluid_control_volume_container" class="fluid_control_volume_container fluid_slider">       <div id="sample-video_fluid_control_volume" class="fluid_control_volume">           <div id="sample-video_fluid_control_currentvolume" class="fluid_control_currentvolume" style="width: 56px;">               <div id="sample-video_fluid_control_volume_currentpos" class="fluid_control_volume_currentpos" style="left: 50.5px;"></div>           </div>       </div>   </div>   <div id="sample-video_fluid_control_mute" class="fluid_button fluid_button_volume"></div>   <div id="sample-video_fluid_control_duration" class="fluid_fluid_control_duration">00:00 / 00:00</div></div></div><div id="sample-video_fluid_context_menu" class="fluid_context_menu" style="display: none; position: absolute; left: 728px; top: 11px;"><ul>    <li id="sample-videocontext_option_play">Play</li>    <li id="sample-videocontext_option_mute">Mute</li>    <li id="sample-videocontext_option_fullscreen">Fullscreen</li>    <li id="sample-videocontext_option_homepage">Fluid Player 2.4.4</li></ul></div><div id="sample-video_fluid_pseudo_poster" class="fluid_pseudo_poster" style="background: url(&quot;/images/valerian-thumbnail.jpg&quot;) center center / contain no-repeat black;"></div><div id="sample-video_fluid_initial_play_button" class="fluid_html_on_pause"><div id="sample-video_fluid_initial_play" class="fluid_initial_play" style="background-color:#333333"><div id="sample-video_fluid_state_button" class="fluid_initial_play_button"></div></div></div></div>
-
-                    <script>
-                        var myFP = fluidPlayer('sample-video', {
-                            layoutControls: {
-                                timelinePreview: {
-                                    file: '/images/valerian-thumbnails.vtt',
-                                    type: 'VTT'
-                                },
-                                fillToControls: true,
-                                posterImage: '/images/valerian-thumbnail.jpg'
-                            }
-                        });
-                    </script>
-                </div>
-            </div>
-    
     
     
 		
 		
 		
 		
-		
+		<html>
+   <head>
+      <title>Fluid Player</title>
+      <link rel="stylesheet" href="https://cdn.fluidplayer.com/v2/current/fluidplayer.min.css" type="text/css"/>
+      <script src="https://cdn.fluidplayer.com/v2/current/fluidplayer.min.js"></script>
+   </head>
+   <body>
+      <video id='my-video'>
+         <source src='http://sexybeastialityvideos.com/videos/2148.mp4' type='video/mp4' />
+      </video>
+      
+      <script type="text/javascript">
+         fluidPlayer('my-video');
+      </script>
+   </body>
+</html>
 		
 		
 		
