@@ -54,12 +54,41 @@
 	
 	
 	
- <link rel="stylesheet" href="https://cdn.fluidplayer.com/v2/current/fluidplayer.min.css" type="text/css"/>
-<script src="https://cdn.fluidplayer.com/v2/current/fluidplayer.min.js"></script>
 
-<video id="video-id"> <source src="http://vds.f-vids.xyz/vdsysws/animalptubetv/mp4/Blonde_and_nasty_dog.mp4" type="video/mp4"/> </video>
-<script> fluidPlayer("video-id"); </script>
-	
+    <main class="content" role="main">
+
+        <section id="player">
+    <div class="container">
+
+        <h1>THE FREE AND OPEN SOURCE HTML5 VIDEO PLAYER</h1>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="video-wrapper">
+
+                    <link rel="stylesheet" href="https://cdn.fluidplayer.com/v2/current/fluidplayer.min.css" type="text/css"/>
+                    <script src="https://cdn.fluidplayer.com/v2/current/fluidplayer.min.js"></script>
+
+                    <video id='sample-video' controls style="width: 100%;">
+                        <source data-fluid-hd src='https://cdn.fluidplayer.com/videos/valerian-1080p.mkv' title="1080p" type='video/mp4' />
+                        <source data-fluid-hd src='https://cdn.fluidplayer.com/videos/valerian-720p.mkv' title="720p" type='video/mp4' />
+                        <source src='https://cdn.fluidplayer.com/videos/valerian-480p.mkv' title="480p" type='video/mp4' />
+                    </video>
+
+                    <script>
+                        var myFP = fluidPlayer('sample-video', {
+                            layoutControls: {
+                                timelinePreview: {
+                                    file: '/images/valerian-thumbnails.vtt',
+                                    type: 'VTT'
+                                },
+                                fillToControls: true,
+                                posterImage: '/images/valerian-thumbnail.jpg'
+                            }
+                        });
+                    </script>
+                </div>
+            </div>
 	
 	
 	
